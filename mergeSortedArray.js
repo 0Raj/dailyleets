@@ -20,7 +20,7 @@ function arrange(arr) {
     return arr;
 }
 
-var nums1 = [4,5,6,0,0,0], nums2 = [1,2,3];
+var nums1 = [4,5,6,250,0,0], nums2 = [1,2,3];
 var start=0,end=0,max_arr=0,countZero=0,min_arr=0;
 if(nums1.length > nums2.length) {
     end = nums1.length-1;
