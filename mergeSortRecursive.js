@@ -1,4 +1,3 @@
-let arr = [1,2,3,4,15,15,16,17,8,9];
 function recursiveArr (arr){
     if(arr.length == 1) {
         return arr;
@@ -47,6 +46,6 @@ function createArr(arr,start,end){
     return arr1;
 }
 
-
+let arr = [1,2,3,4,15,15,16,17,8,9];
 let res = recursiveArr(arr);
 console.log(res);
